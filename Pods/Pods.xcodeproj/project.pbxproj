@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22933E99CF07EF5DCEF8A37196444D8E /* CWStatusBarNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6992884BC7DC3A945DEADCF807C6E4 /* CWStatusBarNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22D2725FB226E35A1C41198C1B55C255 /* CWStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE5CE3EB7646D2CC04BBD3596F1A38E /* CWStatusBarNotification.m */; };
+		325E377051A10243E50F9C1DA1CFC236 /* CWStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = B2F1E6D983F4F09B6223CE0F0C4635F0 /* CWStatusBarNotification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A90F23114A9597AD4CFF4C86E8FB6C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D250E2F57DC3364F70BA5A494EAA8EB /* Foundation.framework */; };
+		6F7069E67B9B19A70A81BBFCD83C29FF /* Pods-color note-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE48329A3C7B75C70EF190BF8F2844 /* Pods-color note-dummy.m */; };
+		70BB048493C9A658DB232C8090F2AE52 /* Pods-color note-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1508FCE69AADA5C8EA79EB32C76E68F0 /* Pods-color note-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0CC92171C2B44ED00E00A04B5369E4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D250E2F57DC3364F70BA5A494EAA8EB /* Foundation.framework */; };
+		B4FCB45F2451A3478EAAFF8A44FE7422 /* Pods-color noteTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7B5512EDA998CD96831AEA5B0553955 /* Pods-color noteTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB98F662901AAB7058B4F82D02F62A74 /* Pods-color noteTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A78CEBDDEE665C29E0827D949953C942 /* Pods-color noteTests-dummy.m */; };
+		CBE9215AFD50E911EB8F5443A2445031 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D250E2F57DC3364F70BA5A494EAA8EB /* Foundation.framework */; };
+		FFD8B9F2E59F920B4468E6AAE3DF72B9 /* CWStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D85790C62B1DA180B386BFADFBC0E61C /* CWStatusBarNotification-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20CA3D9EE584AA92601416CC5D6A0576 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8E82DCC098E64AA7B7D622A9FEBFCA3;
+			remoteInfo = CWStatusBarNotification;
+		};
+		EB41687A754C00F45532ECC8CE61F174 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8E82DCC098E64AA7B7D622A9FEBFCA3;
+			remoteInfo = CWStatusBarNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08A3FC672F47E67B900BCA13F7E8CF1F /* Pods-color note-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-color note-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D1E6683AA25D74CF2A17FDE670246B8 /* CWStatusBarNotification-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CWStatusBarNotification-Private.xcconfig"; sourceTree = "<group>"; };
+		1508FCE69AADA5C8EA79EB32C76E68F0 /* Pods-color note-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-color note-umbrella.h"; sourceTree = "<group>"; };
+		15FF8C1494DB508FC9310AF94B330ABF /* Pods-color note.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-color note.release.xcconfig"; sourceTree = "<group>"; };
+		2D250E2F57DC3364F70BA5A494EAA8EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		31379D489013868562B27ABE299D1E58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335FC5D22CBEB161CB7A3831F2ECFB80 /* Pods-color noteTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-color noteTests.modulemap"; sourceTree = "<group>"; };
+		3DD515DDBD5D825BF1A6B69A9C2B31C6 /* Pods-color note-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-color note-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B8F1F432FEF7E7CEE2BDC7E4B55D36A /* Pods-color note.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-color note.modulemap"; sourceTree = "<group>"; };
+		4E54BBAF3137647FB386FC606FFA0684 /* Pods_color_noteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_color_noteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F27CB455E8167C2661872D8DF8C8A3C /* Pods-color noteTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-color noteTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		502EB0231A7784B4001FEA0C2B7B7FDC /* Pods-color noteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-color noteTests.release.xcconfig"; sourceTree = "<group>"; };
+		64983DD555F2460A815E4CE93943E981 /* Pods-color note.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-color note.debug.xcconfig"; sourceTree = "<group>"; };
+		6E7F495BC2ABCA308527E3FD220566A1 /* CWStatusBarNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CWStatusBarNotification.modulemap; sourceTree = "<group>"; };
+		84B5782514F98E0D7A4FE878F0F15531 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B405DD7F7DA85D3AE011174B24FFD2B /* Pods-color note-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-color note-resources.sh"; sourceTree = "<group>"; };
+		8BA20C91B5F2955F5480E22DB38E6708 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90172785141943A830C5DA9AA12C3566 /* Pods-color noteTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-color noteTests.debug.xcconfig"; sourceTree = "<group>"; };
+		96A78B3C23EF044FB83C759347CC35E9 /* CWStatusBarNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWStatusBarNotification-prefix.pch"; sourceTree = "<group>"; };
+		A78CEBDDEE665C29E0827D949953C942 /* Pods-color noteTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-color noteTests-dummy.m"; sourceTree = "<group>"; };
+		AA9A6AD476CA739B6C543BB97A467868 /* Pods-color noteTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-color noteTests-frameworks.sh"; sourceTree = "<group>"; };
+		AD6992884BC7DC3A945DEADCF807C6E4 /* CWStatusBarNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWStatusBarNotification-umbrella.h"; sourceTree = "<group>"; };
+		B2F1E6D983F4F09B6223CE0F0C4635F0 /* CWStatusBarNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWStatusBarNotification.h; path = CWStatusBarNotification/CWStatusBarNotification.h; sourceTree = "<group>"; };
+		B7B5512EDA998CD96831AEA5B0553955 /* Pods-color noteTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-color noteTests-umbrella.h"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBE5CE3EB7646D2CC04BBD3596F1A38E /* CWStatusBarNotification.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWStatusBarNotification.m; path = CWStatusBarNotification/CWStatusBarNotification.m; sourceTree = "<group>"; };
+		C1C2A0EEB361C5E898BA509F618F21F5 /* Pods-color noteTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-color noteTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6302FDA0AD75DE205C947BD65FD791D /* Pods-color note-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-color note-frameworks.sh"; sourceTree = "<group>"; };
+		C8BE48329A3C7B75C70EF190BF8F2844 /* Pods-color note-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-color note-dummy.m"; sourceTree = "<group>"; };
+		CAD7EA53CDAE919A1211C60256DE4F42 /* CWStatusBarNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CWStatusBarNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85790C62B1DA180B386BFADFBC0E61C /* CWStatusBarNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWStatusBarNotification-dummy.m"; sourceTree = "<group>"; };
+		E846FD4462A15640A8C8159011698E99 /* Pods-color noteTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-color noteTests-resources.sh"; sourceTree = "<group>"; };
+		F69944F80AEA54FAAA4D1A5D16A565D1 /* CWStatusBarNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWStatusBarNotification.xcconfig; sourceTree = "<group>"; };
+		FD649551394FE544BFCCA332D7E83EA8 /* Pods_color_note.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_color_note.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26248D1DFC7D81201A3E6C4EC08FC560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0CC92171C2B44ED00E00A04B5369E4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BEBADECA083CEF70C3598CC65CCBFAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A90F23114A9597AD4CFF4C86E8FB6C7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F96B73C822FB379889462D657BFFE0D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE9215AFD50E911EB8F5443A2445031 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12120D9C527CA25002C1E79A14DB0F17 /* CWStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				B2F1E6D983F4F09B6223CE0F0C4635F0 /* CWStatusBarNotification.h */,
+				BBE5CE3EB7646D2CC04BBD3596F1A38E /* CWStatusBarNotification.m */,
+				E262A4863AF77BECB3D2A133EBAF675B /* Support Files */,
+			);
+			path = CWStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2D250E2F57DC3364F70BA5A494EAA8EB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B67FC45AB486F19C13D037E17A2B0736 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				A2634FDA3F01C69482AC2E233959DB7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4911773F3EB1D8E0CC85B476D20189 /* Pods-color note */ = {
+			isa = PBXGroup;
+			children = (
+				8BA20C91B5F2955F5480E22DB38E6708 /* Info.plist */,
+				4B8F1F432FEF7E7CEE2BDC7E4B55D36A /* Pods-color note.modulemap */,
+				08A3FC672F47E67B900BCA13F7E8CF1F /* Pods-color note-acknowledgements.markdown */,
+				3DD515DDBD5D825BF1A6B69A9C2B31C6 /* Pods-color note-acknowledgements.plist */,
+				C8BE48329A3C7B75C70EF190BF8F2844 /* Pods-color note-dummy.m */,
+				C6302FDA0AD75DE205C947BD65FD791D /* Pods-color note-frameworks.sh */,
+				8B405DD7F7DA85D3AE011174B24FFD2B /* Pods-color note-resources.sh */,
+				1508FCE69AADA5C8EA79EB32C76E68F0 /* Pods-color note-umbrella.h */,
+				64983DD555F2460A815E4CE93943E981 /* Pods-color note.debug.xcconfig */,
+				15FF8C1494DB508FC9310AF94B330ABF /* Pods-color note.release.xcconfig */,
+			);
+			name = "Pods-color note";
+			path = "Target Support Files/Pods-color note";
+			sourceTree = "<group>";
+		};
+		A2634FDA3F01C69482AC2E233959DB7A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4911773F3EB1D8E0CC85B476D20189 /* Pods-color note */,
+				DCDCED86A8ECA152C7669EC9C5E5D558 /* Pods-color noteTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B67FC45AB486F19C13D037E17A2B0736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12120D9C527CA25002C1E79A14DB0F17 /* CWStatusBarNotification */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAD7EA53CDAE919A1211C60256DE4F42 /* CWStatusBarNotification.framework */,
+				FD649551394FE544BFCCA332D7E83EA8 /* Pods_color_note.framework */,
+				4E54BBAF3137647FB386FC606FFA0684 /* Pods_color_noteTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDCED86A8ECA152C7669EC9C5E5D558 /* Pods-color noteTests */ = {
+			isa = PBXGroup;
+			children = (
+				31379D489013868562B27ABE299D1E58 /* Info.plist */,
+				335FC5D22CBEB161CB7A3831F2ECFB80 /* Pods-color noteTests.modulemap */,
+				C1C2A0EEB361C5E898BA509F618F21F5 /* Pods-color noteTests-acknowledgements.markdown */,
+				4F27CB455E8167C2661872D8DF8C8A3C /* Pods-color noteTests-acknowledgements.plist */,
+				A78CEBDDEE665C29E0827D949953C942 /* Pods-color noteTests-dummy.m */,
+				AA9A6AD476CA739B6C543BB97A467868 /* Pods-color noteTests-frameworks.sh */,
+				E846FD4462A15640A8C8159011698E99 /* Pods-color noteTests-resources.sh */,
+				B7B5512EDA998CD96831AEA5B0553955 /* Pods-color noteTests-umbrella.h */,
+				90172785141943A830C5DA9AA12C3566 /* Pods-color noteTests.debug.xcconfig */,
+				502EB0231A7784B4001FEA0C2B7B7FDC /* Pods-color noteTests.release.xcconfig */,
+			);
+			name = "Pods-color noteTests";
+			path = "Target Support Files/Pods-color noteTests";
+			sourceTree = "<group>";
+		};
+		E262A4863AF77BECB3D2A133EBAF675B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E7F495BC2ABCA308527E3FD220566A1 /* CWStatusBarNotification.modulemap */,
+				F69944F80AEA54FAAA4D1A5D16A565D1 /* CWStatusBarNotification.xcconfig */,
+				0D1E6683AA25D74CF2A17FDE670246B8 /* CWStatusBarNotification-Private.xcconfig */,
+				D85790C62B1DA180B386BFADFBC0E61C /* CWStatusBarNotification-dummy.m */,
+				96A78B3C23EF044FB83C759347CC35E9 /* CWStatusBarNotification-prefix.pch */,
+				AD6992884BC7DC3A945DEADCF807C6E4 /* CWStatusBarNotification-umbrella.h */,
+				84B5782514F98E0D7A4FE878F0F15531 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CWStatusBarNotification";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		051684C42A3B55C6A502971398CA5A3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4FCB45F2451A3478EAAFF8A44FE7422 /* Pods-color noteTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DD46A6F1EF40EB2DF5E7AC2D29795D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22933E99CF07EF5DCEF8A37196444D8E /* CWStatusBarNotification-umbrella.h in Headers */,
+				325E377051A10243E50F9C1DA1CFC236 /* CWStatusBarNotification.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		361C2BD06CD04EC912E41205702EFBB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BB048493C9A658DB232C8090F2AE52 /* Pods-color note-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		382E663704192ECDF4D7E792024B71BC /* Pods-color note */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4A28181336E09A447530DB9200D3789 /* Build configuration list for PBXNativeTarget "Pods-color note" */;
+			buildPhases = (
+				09268902C44232F7767738753BC90601 /* Sources */,
+				26248D1DFC7D81201A3E6C4EC08FC560 /* Frameworks */,
+				361C2BD06CD04EC912E41205702EFBB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E78D40DAF1EA95CEFF094ED1291467 /* PBXTargetDependency */,
+			);
+			name = "Pods-color note";
+			productName = "Pods-color note";
+			productReference = FD649551394FE544BFCCA332D7E83EA8 /* Pods_color_note.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C8E82DCC098E64AA7B7D622A9FEBFCA3 /* CWStatusBarNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA44D2E6C755B25D5C522908DE05B6F5 /* Build configuration list for PBXNativeTarget "CWStatusBarNotification" */;
+			buildPhases = (
+				D8CC93CAA3C8AC93B1B21B3D2E6EF7C0 /* Sources */,
+				3BEBADECA083CEF70C3598CC65CCBFAD /* Frameworks */,
+				0DD46A6F1EF40EB2DF5E7AC2D29795D2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CWStatusBarNotification;
+			productName = CWStatusBarNotification;
+			productReference = CAD7EA53CDAE919A1211C60256DE4F42 /* CWStatusBarNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF7F397C73A00DA93A2F794D56345A41 /* Pods-color noteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99459FCD518E137A10F4A6C6A334BB6B /* Build configuration list for PBXNativeTarget "Pods-color noteTests" */;
+			buildPhases = (
+				130616CFCC66C3D78D40F8BA0D8313C3 /* Sources */,
+				F96B73C822FB379889462D657BFFE0D7 /* Frameworks */,
+				051684C42A3B55C6A502971398CA5A3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C48954BE1FF5651A18F9481D9FB5449 /* PBXTargetDependency */,
+			);
+			name = "Pods-color noteTests";
+			productName = "Pods-color noteTests";
+			productReference = 4E54BBAF3137647FB386FC606FFA0684 /* Pods_color_noteTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8E82DCC098E64AA7B7D622A9FEBFCA3 /* CWStatusBarNotification */,
+				382E663704192ECDF4D7E792024B71BC /* Pods-color note */,
+				EF7F397C73A00DA93A2F794D56345A41 /* Pods-color noteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09268902C44232F7767738753BC90601 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F7069E67B9B19A70A81BBFCD83C29FF /* Pods-color note-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130616CFCC66C3D78D40F8BA0D8313C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB98F662901AAB7058B4F82D02F62A74 /* Pods-color noteTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8CC93CAA3C8AC93B1B21B3D2E6EF7C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD8B9F2E59F920B4468E6AAE3DF72B9 /* CWStatusBarNotification-dummy.m in Sources */,
+				22D2725FB226E35A1C41198C1B55C255 /* CWStatusBarNotification.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C48954BE1FF5651A18F9481D9FB5449 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CWStatusBarNotification;
+			target = C8E82DCC098E64AA7B7D622A9FEBFCA3 /* CWStatusBarNotification */;
+			targetProxy = EB41687A754C00F45532ECC8CE61F174 /* PBXContainerItemProxy */;
+		};
+		94E78D40DAF1EA95CEFF094ED1291467 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CWStatusBarNotification;
+			target = C8E82DCC098E64AA7B7D622A9FEBFCA3 /* CWStatusBarNotification */;
+			targetProxy = 20CA3D9EE584AA92601416CC5D6A0576 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068C7DB46BC20A22C72024C1A7BC21E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64983DD555F2460A815E4CE93943E981 /* Pods-color note.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-color note/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-color note/Pods-color note.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_color_note;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		89E46191D5DDF453359E6644DC8AED83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15FF8C1494DB508FC9310AF94B330ABF /* Pods-color note.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-color note/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-color note/Pods-color note.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_color_note;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A56ACBD83120E3A3C4D3842BA899C77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1E6683AA25D74CF2A17FDE670246B8 /* CWStatusBarNotification-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.2.6;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CWStatusBarNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CWStatusBarNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A344AA13A1185F82738EB49B58690423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502EB0231A7784B4001FEA0C2B7B7FDC /* Pods-color noteTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-color noteTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-color noteTests/Pods-color noteTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_color_noteTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA6FB6B9C2D47328A48892183AE4FECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1E6683AA25D74CF2A17FDE670246B8 /* CWStatusBarNotification-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 2.2.6;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CWStatusBarNotification/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CWStatusBarNotification/CWStatusBarNotification.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CWStatusBarNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC1CB90C8C76BE426A727BCE91C14E7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90172785141943A830C5DA9AA12C3566 /* Pods-color noteTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-color noteTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-color noteTests/Pods-color noteTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_color_noteTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99459FCD518E137A10F4A6C6A334BB6B /* Build configuration list for PBXNativeTarget "Pods-color noteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1CB90C8C76BE426A727BCE91C14E7C /* Debug */,
+				A344AA13A1185F82738EB49B58690423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4A28181336E09A447530DB9200D3789 /* Build configuration list for PBXNativeTarget "Pods-color note" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068C7DB46BC20A22C72024C1A7BC21E0 /* Debug */,
+				89E46191D5DDF453359E6644DC8AED83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA44D2E6C755B25D5C522908DE05B6F5 /* Build configuration list for PBXNativeTarget "CWStatusBarNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A56ACBD83120E3A3C4D3842BA899C77 /* Debug */,
+				CA6FB6B9C2D47328A48892183AE4FECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
