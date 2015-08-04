@@ -1,10 +1,43 @@
 PODS:
+  - Bolts (1.2.0):
+    - Bolts/AppLinks (= 1.2.0)
+    - Bolts/Tasks (= 1.2.0)
+  - Bolts/AppLinks (1.2.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.0)
+  - Crashlytics (3.1.0)
   - CWStatusBarNotification (2.2.6)
+  - Fabric (1.2.8):
+    - Fabric/Base (= 1.2.8)
+  - Fabric/Base (1.2.8)
+  - FBSDKCoreKit (4.4.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.4.0)
+    - FBSDKCoreKit/no-arc (= 4.4.0)
+  - FBSDKCoreKit/arc (4.4.0):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.4.0):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.4.0):
+    - FBSDKCoreKit
+  - Firebase (2.3.3)
 
 DEPENDENCIES:
+  - Crashlytics
   - CWStatusBarNotification (~> 2.2.2)
+  - Fabric
+  - FBSDKCoreKit (~> 4.4)
+  - FBSDKLoginKit (~> 4.4)
+  - Firebase (>= 2.3.3)
 
 SPEC CHECKSUMS:
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  Crashlytics: ef9a58a4e806b316a1748c06432f6f847ba09ac6
   CWStatusBarNotification: b7d08c63bbfcceee08b63cab041560a6f5cdefb6
+  Fabric: a9eabe53915e9f1db55a84dd2838737928675878
+  FBSDKCoreKit: 75bdd75c980e811db218488d99dd93b7740f4474
+  FBSDKLoginKit: 02a9254a4c132412fa03577b0d53e936d068a7fb
+  Firebase: 2db60272f68ce40c7d47e5ae6eddc16977c65d4c
 
 COCOAPODS: 0.38.2

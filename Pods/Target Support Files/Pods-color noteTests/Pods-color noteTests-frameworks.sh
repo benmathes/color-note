@@ -52,8 +52,14 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework 'Pods-color noteTests/Bolts.framework'
   install_framework 'Pods-color noteTests/CWStatusBarNotification.framework'
+  install_framework 'Pods-color noteTests/FBSDKCoreKit.framework'
+  install_framework 'Pods-color noteTests/FBSDKLoginKit.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework 'Pods-color noteTests/Bolts.framework'
   install_framework 'Pods-color noteTests/CWStatusBarNotification.framework'
+  install_framework 'Pods-color noteTests/FBSDKCoreKit.framework'
+  install_framework 'Pods-color noteTests/FBSDKLoginKit.framework'
 fi

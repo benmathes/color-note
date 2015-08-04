@@ -160,6 +160,7 @@
 				662273D31B6FC9330095D81B /* Resources */,
 				CAD1C2880BD683E9F7871340 /* Embed Pods Frameworks */,
 				43AB9E5D6FFFA78D2E3740F0 /* Copy Pods Resources */,
+				66DA3FE71B704ED300372E58 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -278,6 +279,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-color note/Pods-color note-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		66DA3FE71B704ED300372E58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/Fabric.framework/run\" f02b7db57e0542205c4f2320f58bfe2ae00def4d a608f337d37c13d0300dc24050686c0304f235c862997463387bd00b446b6f9b";
 		};
 		8ED911A6B2066C458CE3EDDF /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;

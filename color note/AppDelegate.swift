@@ -7,6 +7,11 @@
 //
 
 import UIKit
+import Firebase
+import Crashlytics
+import FBSDKCoreKit
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +20,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+        // TODO: make this a global singleton.
+        var ref = Firebase(url:"https://color-notes.firebaseio.com")
+        
+        let fbReturn = FBSDKApplicationDelegate.sharedInstance().application(application, didFinishLaunchingWithOptions: launchOptions)
+        
+        // needs to be the last call in the App init to register the exception-handler.
+        Fabric.with([Crashlytics()])
+        return fbReturn
     }
 
     func applicationWillResignActive(application: UIApplication) {

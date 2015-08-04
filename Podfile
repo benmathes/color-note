@@ -7,6 +7,8 @@ target 'color note' do
   pod 'Firebase', '>= 2.3.3'
   pod 'FBSDKCoreKit', '~> 4.4'
   pod 'FBSDKLoginKit', '~> 4.4'
+  pod 'Fabric', '~> 1'
+  pod 'Crashlytics', '~> 3'
 end
 
 target 'color noteTests' do
@@ -14,4 +16,6 @@ target 'color noteTests' do
   pod 'Firebase', '>= 2.3.3'
   pod 'FBSDKCoreKit', '~> 4.4'
   pod 'FBSDKLoginKit', '~> 4.4'
+  pod 'Fabric', '~> 1'
+  pod 'Crashlytics', '~> 3'
 end
