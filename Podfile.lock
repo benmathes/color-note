@@ -24,16 +24,16 @@ PODS:
   - Firebase (2.3.3)
 
 DEPENDENCIES:
-  - Crashlytics
+  - Crashlytics (~> 3)
   - CWStatusBarNotification (~> 2.2.2)
-  - Fabric
+  - Fabric (~> 1)
   - FBSDKCoreKit (~> 4.4)
   - FBSDKLoginKit (~> 4.4)
   - Firebase (>= 2.3.3)
 
 SPEC CHECKSUMS:
   Bolts: d176cb1e0012175589e389a9db49b85e27787576
-  Crashlytics: ef9a58a4e806b316a1748c06432f6f847ba09ac6
+  Crashlytics: 93e2f86363d53c002c6366a9d87e41f2eaee87c3
   CWStatusBarNotification: b7d08c63bbfcceee08b63cab041560a6f5cdefb6
   Fabric: a9eabe53915e9f1db55a84dd2838737928675878
   FBSDKCoreKit: 75bdd75c980e811db218488d99dd93b7740f4474

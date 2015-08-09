@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		662273DB1B6FC9330095D81B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662273DA1B6FC9330095D81B /* AppDelegate.swift */; };
-		662273DD1B6FC9330095D81B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662273DC1B6FC9330095D81B /* ViewController.swift */; };
+		662273DD1B6FC9330095D81B /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662273DC1B6FC9330095D81B /* NoteViewController.swift */; };
 		662273E01B6FC9330095D81B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 662273DE1B6FC9330095D81B /* Main.storyboard */; };
 		662273E21B6FC9330095D81B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 662273E11B6FC9330095D81B /* Images.xcassets */; };
 		662273E51B6FC9330095D81B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 662273E31B6FC9330095D81B /* LaunchScreen.xib */; };
 		662273F11B6FC9330095D81B /* color_noteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662273F01B6FC9330095D81B /* color_noteTests.swift */; };
 		662273FB1B6FCB060095D81B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662273FA1B6FCB060095D81B /* Config.swift */; };
+		66A4D1151B76E7E600BD10F2 /* Singeltons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4D1141B76E7E600BD10F2 /* Singeltons.swift */; };
 		700CB8B31C7A6A15C34B1C6A /* Pods_color_noteTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44B1BD172FBF5F9ED6CBE9F /* Pods_color_noteTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		E8956D76B12A200837265E89 /* Pods_color_note.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A958E7FF60D654969C4FD1 /* Pods_color_note.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -34,7 +35,7 @@
 		662273D51B6FC9330095D81B /* color note.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "color note.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		662273D91B6FC9330095D81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662273DA1B6FC9330095D81B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		662273DC1B6FC9330095D81B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		662273DC1B6FC9330095D81B /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 		662273DF1B6FC9330095D81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		662273E11B6FC9330095D81B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		662273E41B6FC9330095D81B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		662273EF1B6FC9330095D81B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		662273F01B6FC9330095D81B /* color_noteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = color_noteTests.swift; sourceTree = "<group>"; };
 		662273FA1B6FCB060095D81B /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = SOURCE_ROOT; };
+		66A4D1141B76E7E600BD10F2 /* Singeltons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Singeltons.swift; sourceTree = "<group>"; };
 		A5A958E7FF60D654969C4FD1 /* Pods_color_note.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_color_note.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB43998BEBBBB6CC72BE2A53 /* Pods-color note.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-color note.debug.xcconfig"; path = "Pods/Target Support Files/Pods-color note/Pods-color note.debug.xcconfig"; sourceTree = "<group>"; };
 		C44B1BD172FBF5F9ED6CBE9F /* Pods_color_noteTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_color_noteTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,7 +95,8 @@
 			children = (
 				662273DA1B6FC9330095D81B /* AppDelegate.swift */,
 				662273FA1B6FCB060095D81B /* Config.swift */,
-				662273DC1B6FC9330095D81B /* ViewController.swift */,
+				662273DC1B6FC9330095D81B /* NoteViewController.swift */,
+				66A4D1141B76E7E600BD10F2 /* Singeltons.swift */,
 				662273DE1B6FC9330095D81B /* Main.storyboard */,
 				662273E11B6FC9330095D81B /* Images.xcassets */,
 				662273E31B6FC9330095D81B /* LaunchScreen.xib */,
@@ -360,8 +363,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				662273DD1B6FC9330095D81B /* ViewController.swift in Sources */,
+				662273DD1B6FC9330095D81B /* NoteViewController.swift in Sources */,
 				662273DB1B6FC9330095D81B /* AppDelegate.swift in Sources */,
+				66A4D1151B76E7E600BD10F2 /* Singeltons.swift in Sources */,
 				662273FB1B6FCB060095D81B /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

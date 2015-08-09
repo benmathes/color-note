@@ -9,9 +9,10 @@
 import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
+import Firebase
 
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
+class NoteViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +28,31 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     // load the facebook login button
     func loadFacebookView() {
-        if (FBSDKAccessToken.currentAccessToken() == nil) {
-            println("Not logged in..")
-        }
-        else {
-            println("Logged in..")
-        }
-        
+        let fbLoginManager = FBSDKLoginManager()
+        fbLoginManager.logInWithReadPermissions(
+            ["public_profile", "email"],
+            handler: { (facebookResult, facebookError) -> Void in
+                if facebookError != nil {
+                    println("Facebook login failed. Error \(facebookError)")
+                } else if facebookResult.isCancelled {
+                    println("Facebook login was cancelled.")
+                } else {                    
+                    let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
+                    FBase.ref.authWithOAuthProvider(
+                        "facebook",
+                        token: accessToken,
+                        withCompletionBlock: { error, authData in
+                            if error != nil {
+                                println("Login failed. \(error)")
+                            } else {
+                                println("Logged in! \(authData)")
+                            }
+                        }
+                    )
+                }
+            }
+        )
+      
         var loginButton = FBSDKLoginButton()
         loginButton.readPermissions = ["public_profile", "email"]
         loginButton.center = self.view.center
