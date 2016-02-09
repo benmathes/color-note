@@ -33,9 +33,9 @@ class NoteViewController: UIViewController, FBSDKLoginButtonDelegate {
             ["public_profile", "email"],
             handler: { (facebookResult, facebookError) -> Void in
                 if facebookError != nil {
-                    println("Facebook login failed. Error \(facebookError)")
+                    print("Facebook login failed. Error \(facebookError)")
                 } else if facebookResult.isCancelled {
-                    println("Facebook login was cancelled.")
+                    print("Facebook login was cancelled.")
                 } else {                    
                     let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
                     FBase.ref.authWithOAuthProvider(
@@ -43,9 +43,9 @@ class NoteViewController: UIViewController, FBSDKLoginButtonDelegate {
                         token: accessToken,
                         withCompletionBlock: { error, authData in
                             if error != nil {
-                                println("Login failed. \(error)")
+                                print("Login failed. \(error)")
                             } else {
-                                println("Logged in! \(authData)")
+                                print("Logged in! \(authData)")
                             }
                         }
                     )
@@ -53,7 +53,7 @@ class NoteViewController: UIViewController, FBSDKLoginButtonDelegate {
             }
         )
       
-        var loginButton = FBSDKLoginButton()
+        let loginButton = FBSDKLoginButton()
         loginButton.readPermissions = ["public_profile", "email"]
         loginButton.center = self.view.center
         loginButton.delegate = self
@@ -73,16 +73,16 @@ class NoteViewController: UIViewController, FBSDKLoginButtonDelegate {
     
     func loginButton(loginButton: FBSDKLoginButton!, didCompleteWithResult result: FBSDKLoginManagerLoginResult!, error: NSError!) {
         if error == nil {
-            println("Login complete.")
+            print("Login complete.")
             self.performSegueWithIdentifier("showNew", sender: self)
         }
         else {
-            println(error.localizedDescription)
+            print(error.localizedDescription)
         }
     }
     
     func loginButtonDidLogOut(loginButton: FBSDKLoginButton!) {
-        println("User logged out...")
+        print("User logged out...")
     }
 
 
