@@ -12,5 +12,14 @@ def common
 end
 
 
-target 'color note' do common end
-target 'color noteTests' do common end
+target 'color notes' do common end
+target 'color notesTests' do common end
+
+
+# automatically allow non-modular includes in header frameworks.
+# source: http://stackoverflow.com/a/32080491/105609
+post_install do |installer|
+  installer.pods_project.build_configuration_list.build_configurations.each do |configuration|
+    configuration.build_settings['CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES'] = 'YES'
+  end
+end
